@@ -5,7 +5,7 @@
 ### Assignemnt description
 Digital environment for students of Associate-Degree Enterprise. TegelsApp makes it possible for teachers to create modules and associated assignments. In addition, it is possible to view individual progress of  students.
 
-The TegelsApp makes it possible for students to be able to upload their finished assignments as an attachment. If the assignment matches the demanded criteria, the student will be rewarded with TegelApp credits which can be spent on purchasing majestic title's. The title will be displayed publicly to other students for motivational purpose.
+The TegelsApp makes it possible for students to be able to upload their finished assignments as an attachment. If the assignment matches the demanded criteria, the student will be rewarded with TegelsApp credits which can be spent on purchasing majestic title's. The title will be displayed publicly to other students for motivational purpose.
 
 ### Most important features of TegelsApp
 #### As a teacher (Admin)
