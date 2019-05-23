@@ -1,0 +1,83 @@
+.tile-card {
+    margin-right: 25px;
+    margin-bottom: 25px;
+    min-width: 345px;
+    /* width: 100%; */
+    padding-left: 0px;
+    padding-right: 0px;
+    animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s; /* Firefox */
+    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+    -o-animation: fadein 1.5s; /* Opera */
+}
+
+/* .module-tiles a{
+    display: flex;
+} */
+
+.tiles{
+
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+  
+@media only screen and (max-width: 585px){ 
+    .tiles{
+        grid-template-columns: 1fr;
+    }
+ }
+
+@media only screen and (min-width: 586px) and (max-width: 767px){ 
+    .tiles{
+        grid-template-columns: 1fr 1fr;
+    }
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+    .tiles{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+ }
+
+@media only screen and (min-width: 992px)  and (max-width: 1600px){ 
+    .tiles{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+ }
+
+ @media only screen and (min-width: 1601px){ 
+    .tiles{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+ }

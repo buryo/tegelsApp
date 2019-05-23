@@ -1,0 +1,27 @@
+footer {
+    position: fixed;
+    height: 20px;
+    bottom: 40px;
+    width: 100%;
+}
+
+.card {
+    background-color: #2468A2;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    opacity: 0.5;
+}
+
+.card-text{
+    font-family: 'Karla', sans-serif;
+}
+
+.card:hover{
+    background-color: #1A4870;
+    height: 250px;
+    bottom: 100px;
+    transition: opacity 200ms ease-in-out;
+    opacity: 1;
+}
+

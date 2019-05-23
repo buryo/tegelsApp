@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);body {
+  background-color: #f8f9fa;
+}
+
+.mast-text {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+.text-head {
+  color: #12263F;
+  font-family: 'Rubik', sans-serif;
+}
+
+.text-grey {
+  color: #617691;
+  font-family: 'Karla', sans-serif;
+}
+
+div.masthead {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url("/images/header-banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/header-banner.jpg");
+  position: relative;
+  background-color: #343a40;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.features-icons {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+  -webkit-transition: 300ms;
+  /* Safari */
+  transition: 300ms;
+  color: #2468A2;
+}
+

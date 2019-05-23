@@ -1,0 +1,91 @@
+.progress-container {
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr ;
+    grid-column-gap: 1em;
+}
+
+.avatar-box {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url("https://image.flaticon.com/icons/svg/236/236831.svg");
+    width: 50px;
+    height: 50px;
+    justify-self: end;
+    align-self: end;
+}
+
+.profilepic {
+    width: 100px;
+}
+
+.dashboard-header{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.mine-progress{
+    grid-column: 2;
+    grid-row: auto;
+}
+
+.dashboard-title{
+    display: inline-block;
+    width: 75%;
+    padding-left: 3rem;
+}
+
+.dashboard-avatar{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.shop{
+    width: 100x;
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+}
+
+.shop .shopping-cart{
+    width: 80px;
+    background-color: #eadeb8;
+    border-radius: 50%;
+}
+
+.shop a{
+    text-decoration: none;
+    color: #3f3f3f
+}
+
+.shop span{
+    position: absolute;
+    top: 69px;
+    right: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.shop span strong{
+    margin: 5px;
+}
+
+.shop .shopping-cart img {
+    padding: 15px
+}
+
+.shop-titles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title-price{
+    justify-self: end;
+}
+
+.ant-progress-inner-text{
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
