@@ -8,6 +8,7 @@ Digital environment for students of Associate-Degree Enterprise. TegelsApp makes
 The TegelsApp makes it possible for students to be able to upload their finished assignments as an attachment. If the assignment matches the demanded criteria, the student will be rewarded with TegelsApp credits which can be spent on purchasing majestic title's. The title will be displayed publicly to other students for motivational purpose.
 
 ### Most important features of TegelsApp
+(Screenshots)[https://github.com/buryo/tegelsApp/tree/master/Documentation/Screenshots]
 #### As a teacher (Admin)
 1) As a teacher. Adding students to the semi-open platform
 2) As a teacher. It makes it very easy and clear to see the progress of your students
