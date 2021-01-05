@@ -30,7 +30,7 @@
     "dependencies": {
         "@material-ui/core": "^3.9.3",
         "antd": "^3.16.6",
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "react": "^16.6.3",
         "react-dom": "^16.6.3",
         "react-markdown": "^4.0.4",
